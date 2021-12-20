@@ -1,0 +1,5 @@
+# Lovin'Lour_CodoJava1111
+Projecto Final con BackEnd Java
+Codigo solo para ser desplegado en el localhost con puerto 3308.
+
+Se subirá el archivo a Jelastic
