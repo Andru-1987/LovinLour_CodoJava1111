@@ -12,7 +12,7 @@ create table books
 	(idBook smallint not null auto_increment, book varchar(200),autor varchar(200), idioma varchar(200), primeraPublicacion varchar(200), ventas varchar(200),ISBN varchar(200), recomendacion varchar(200),  unique(ISBN),primary key (idBook));
 
 create table deleteUsers
-	(idDeleteUser int not null auto_increment primary key,idUser smallint, nombre varchar(200), email varchar(200), hora datetime)
+	(idDeleteUser int not null auto_increment primary key,idUser smallint, nombre varchar(200), email varchar(200), hora datetime);
 
 
 insert into libreria.books (book,autor,idioma,primeraPublicacion,ventas,ISBN) 
@@ -102,4 +102,4 @@ create trigger guardaUsuarios_AD after delete on users
 for each row insert into deleteUsers
 (idUser,nombre, email, hora)
 values
-(old.idUser,old.nombre,old.email,now())
+(old.idUser,old.nombre,old.email,now());
