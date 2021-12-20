@@ -1,0 +1,12 @@
+config/Conector.class
+comon/Root.class
+servlet/Signup.class
+modelo/BooksDAO.class
+servlet/DeleteAccount.class
+modelo/UsersDAO$Tabla.class
+servlet/Controller.class
+modelo/User.class
+servlet/BooksUpdate.class
+modelo/BooksDAO$Tabla.class
+modelo/Books.class
+modelo/UsersDAO.class
